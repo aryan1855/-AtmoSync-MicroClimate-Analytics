@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and sensitive configuration
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+
+# Snowflake and dbt credentials
+profiles.yml
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+
+# Generated data files
+*.csv
+*.parquet
