@@ -1,0 +1,38 @@
+{
+    "commodity": "Avocado",
+    "maturity_stage": "Mature-Green",
+
+    "storage_conditions": {
+        "temperature_celsius": {
+            "minimum": 5,
+            "maximum": 13
+        },
+
+        "humidity_percentage": {
+            "minimum": 90,
+            "maximum": 95
+        }
+    },
+
+    "risk_scoring": {
+        "temperature_weight": 0.5,
+        "humidity_weight": 0.5,
+
+        "risk_levels": {
+            "low_max": 20,
+            "medium_max": 50
+        }
+    },
+
+    "source": {
+        "organization": "UC Davis Postharvest Research and Extension Center",
+        "url": "https://postharvest.ucdavis.edu/ar/produce-facts-sheets/avocado"
+    },
+
+    "limitations": [
+        "Reference conditions apply to mature-green avocados.",
+        "Temperature requirements vary by cultivar and storage duration.",
+        "Risk classifications are illustrative prototype assumptions.",
+        "The current sensor dataset is generic IoT telemetry, not actual avocado shipment data."
+    ]
+}

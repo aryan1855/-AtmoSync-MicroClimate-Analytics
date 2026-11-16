@@ -1,0 +1,32 @@
+{
+    "commodity": "Tomato",
+    "maturity_stage": "Firm-Ripe",
+
+    "storage_conditions": {
+        "temperature_celsius": {
+            "minimum": 7,
+            "maximum": 10
+        },
+
+        "humidity_percentage": {
+            "minimum": 90,
+            "maximum": 95
+        },
+
+        "reference_storage_duration_days": {
+            "minimum": 3,
+            "maximum": 5
+        }
+    },
+
+    "source": {
+        "organization": "UC Davis Postharvest Research and Extension Center",
+        "url": "https://postharvest.ucdavis.edu/ar/produce-facts-sheets/tomato"
+    },
+
+    "limitations": [
+        "These conditions apply to firm-ripe tomatoes.",
+        "These are reference storage conditions, not validated spoilage prediction thresholds.",
+        "Risk classification will be treated as a prototype assumption."
+    ]
+}
