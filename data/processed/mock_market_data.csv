@@ -1,0 +1,10 @@
+﻿container_id,market_name,market_price_per_kg,distance_km,transit_time_hours,transport_cost_per_kg
+C001,Market_A,120,80,12,8
+C001,Market_B,145,180,24,15
+C001,Market_C,160,300,40,22
+C002,Market_A,125,80,12,8
+C002,Market_B,150,180,24,15
+C002,Market_C,165,300,40,22
+C003,Market_A,115,80,12,8
+C003,Market_B,140,180,24,15
+C003,Market_C,155,300,40,22
